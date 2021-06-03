@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/colorwhite"
+    android:layout_width="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How can you help stop the spread of COVID-19?"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/color3"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here are some tips for grocery shopping:"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/colorblack"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="336dp"
+        android:contentDescription="tips"
+        android:src="@drawable/shoptips" />
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return to Main"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Logout"
+        android:layout_gravity="center"/>
+
+
+
+
+
+</LinearLayout>

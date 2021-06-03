@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/box_inset_layout_padding"
+        android:id="@+id/ImageView"
+        android:src="@drawable/covidtrackerlogo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to COVID_TRACKER!"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/color3"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Safety is a #1 priority to us\n Please continue to the information Page and we can assist you in maintaining your health and safety!"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorwhite"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Continue to information"/>
+
+
+</LinearLayout>
